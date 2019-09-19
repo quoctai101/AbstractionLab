@@ -29,7 +29,7 @@ namespace AbstractionLab
         }
         public Student(string Name, int Age, float Grade)
         {
-            name = Name; age = Age; grade = Grade;
+            this.Name = Name; this.Age = Age; this.Grade = Grade;
         }
         public override string ToString()
         {

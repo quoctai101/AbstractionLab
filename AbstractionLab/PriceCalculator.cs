@@ -35,15 +35,15 @@ namespace AbstractionLab
         }
         public PriceCalculator(float Priceperday, int Numberofday, string Season)
         {
-            priceperday = Priceperday;
-            numberofday = Numberofday;
-            season = Season;
-            discount = "None";
+            this.Priceperday = Priceperday;
+            this.Numberofday = Numberofday;
+            this.Season = Season;
+            this.Discount = "None";
         }
         public PriceCalculator(float Priceperday, int Numberofday, string Season, string Discount)
             : this(Priceperday, Numberofday, Season)
         {
-            discount = Discount;
+            this.Discount = Discount;
         }
         public float calc()
         {

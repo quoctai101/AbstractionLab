@@ -21,8 +21,8 @@ namespace AbstractionLab
         }
         public Rectangle(Point TopLeft, Point BottomRight)
         {
-            topleft = TopLeft;
-            bottomright = BottomRight;
+            this.TopLeft = TopLeft;
+            this.BottomRight = BottomRight;
         }
         public Rectangle(float TopLeftX, float TopLeftY, float BottomRightX, float BottomRightY)
             : this(new Point(TopLeftX, TopLeftY), new Point(BottomRightX, BottomRightY))

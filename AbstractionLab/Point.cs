@@ -21,7 +21,7 @@ namespace AbstractionLab
         }
         public Point(float X, float Y)
         {
-            x = X; y = Y;
+            this.X = X; this.Y = Y;
         }
     }
 }
